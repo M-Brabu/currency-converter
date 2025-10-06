@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Currency Converter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>💱 Currency Converter</h1>
+
+    <div class="converter-box">
+      <label>Amount:</label>
+      <input type="number" id="amount" placeholder="Enter amount" value="1" />
+
+      <div class="currency-select">
+        <div>
+          <label>From:</label>
+          <select id="from"></select>
+        </div>
+
+        <div>
+          <label>To:</label>
+          <select id="to"></select>
+        </div>
+      </div>
+
+      <button id="convert-btn">Convert</button>
+
+      <div id="result" class="result-box">
+        Enter amount and select currencies
+      </div>
+    </div>
+  </div>
+
+  <footer>© 2025 Currency converter | Naan mudhalvan IBM hackathon</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
